@@ -48,12 +48,12 @@
 	
 	<distributionManagement>
 	<snapshotRepository>
-	   <id>nexusdeploymentrepo</id>
-	   <url>http://localhost:8081/repository/maven-snapshots/</url>
+	   <id>devopsschool</id>
+	   <url>http://localhost:8081/repository/devopsschool-snapshot/</url>
 	</snapshotRepository>  
     <repository>
-       <id>nexusdeploymentrepo</id>
-	   <url>http://localhost:8081/repository/maven-releases/</url>
+       <id>devopsschool</id>
+	   <url>http://localhost:8081/repository/devopsschool-release/</url>
     </repository>
    </distributionManagement>	
 	   
